@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+function Tong(){
+    var a = document.getElementById("soa").value;
+    var b = document.getElementById("sob").value;
+    
+    return (parseInt(a)+parseInt(b));
+}
+    </script>
+</head>
+<body>
+    <p>so a:<input type="text" id="soa"></p>
+    <p>so b:<input type="text" id="sob"></p>
+    <input type="button" value="TinhTong" onclick="alert(Tong())">
+    <div id="ketqua"></div>
+</body>
+</html>

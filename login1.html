@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Sniglet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Lakki+Reddy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script >
+    function show() {
+      var username=document.getElementById("usr").value;
+      var pswd=document.getElementById("pwd").value;
+      switch (username){
+        case 'Minhthu':
+          switch(pswd){
+            case 'minhthu123':
+            alert("Chúc mừng bạn đăng nhập thành công!")
+        break;
+        default:
+            alert("Bạn đăng nhập không thành công!");
+          }
+          break;
+          default:
+            alert("Bạn đăng nhập không thành công!")
+      }
+    }
+     
+    </script>
+</head>
+<body>
+    <div class="row" style="background-image:url(images/bg.jpg);height: 650px;width:1363px">
+        <div col-sm-3>
+     
+        <div class="avartar"> <a href="file:///D:/Project2/ThucHanhBootstrap/index.html"> <img src="images/thu.jpg"  alt="Cinque Terre" width="80" height="80" style="border-radius:50%; margin-left: 120px; margin-top: 10px;"></a><span style="color: white; font-size: 30px; margin-top:20px;margin-left:10px;font-family: 'Righteous', cursive;
+            font-family: 'Sniglet', cursive">Minh Thu</span></div>
+            <div class="btn-group-vertical" style="margin-top: 200px;margin-left: 5px;;">
+                <button type="button" class="btn btn-dark"> <i class="fas fa-sign-in-alt" style="color: white;"></i></button>
+                <button type="button" class="btn btn-dark"> <i class="fas fa-home" style="color: white;" > </i></button>
+                <button type="button" class="btn btn-dark"> <i class="fas fa-address-card" style="color: white;"></i></button>
+              </div>
+            </div>
+            <div class="col-sm-9">
+        <h1 style="color: white;  border: 1px solid yellow; texalign:center; width: 550px;font-family: 'Righteous', cursive;
+        font-family: 'Sniglet', cursive; margin-top: 60px;margin-left:80px">PROFICIENT LOGIN FORM</h1>
+        <div class="container text-white" style="width: 370px; height:380px; margin-left: 150px;margin-top:70px; background-color: black;opacity: 0.8;">
+<div><img src="images/tl.jpg"  alt="Cinque Terre" width="80" height="80" style="border-radius:50%; margin-left: 120px; margin-top: 10px; border: 2px solid;"></div>
+<div class="container" >
+        <div class="form-group" style="margin-top: 20px;">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" style="background-color: black;"><i class="fas fa-user" style="color: white;"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder="Username" id="usr" name="username">
+              </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" style="background-color: black;"><i class="fas fa-lock" style="color: white;"></i></span>
+                </div>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">          </div>
+            </div>
+        </div>
+        <label class="form-check-label" style="margin-left: 20px;">
+                <input class="form-check-input" type="checkbox" style="font-family: 'Righteous', cursive;
+                font-family: 'Sniglet', cursive">Keep me logged in?
+              </label>
+        <button type="submit"  onClick="show()" style="width:200px; margin-left: 50px; margin-top:5px;background-color: black;color:white;opacity: 0.5; border: 2px solix white; border-radius: 50px;font-family: 'Righteous', cursive;
+        font-family: 'Sniglet', cursive">LOG IN</button>
+        <br><br>
+          <i style="font-family: 'Righteous', cursive;
+          font-family: 'Sniglet', cursive">Or Login with</i>
+        <div class="btn-group btn-group-sm" style="margin-left: 10px">
+                <button type="button" class="btn" style="background-color: #3c5a96;"><img src="images/fb.png" class="img-thumbnail"
+                    alt="Cinque Terre" width="20" height="20" ;></button>
+                <button type="button" class="btn btn-primary"><img src="images/zl.png" class="img-thumbnail"
+                    alt="Cinque Terre" width="20" height="20"></button>
+                <button type="button" class="btn btn-danger"><img src="images/im.jpg" class="img-thumbnail"
+                    alt="Cinque Terre" width="20" height="30"></button>
+              </div> 
+            </div>
+            </div>
+</div>
+
+</body>
+</html>
